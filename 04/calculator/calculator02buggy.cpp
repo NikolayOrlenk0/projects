@@ -24,11 +24,11 @@ class Token
 {
 public:
   char kind;     /// what kind of token
-  double value;  /// for numbers: a value
+  int value;  /// for numbers: a value
 
   Token(char ch) : kind{ch}, value{0} {}
 
-  Token(char ch, double val) : kind{ch}, value{val} {}
+  Token(char ch, int val) : kind{ch}, value{val} {}
 };
 
 class Token_stream
@@ -78,6 +78,11 @@ Token Token_stream::get ()
   case '-':
   case '*':
   case '/':
+  case '&':
+  case '^':
+  case '|':
+  case '!':
+
     return Token{ch};  // let each character represent itself
 
   case '.':
@@ -92,7 +97,7 @@ Token Token_stream::get ()
   case '9':
   {
     cin.putback(ch);  // put digit back into the input stream
-    double val;
+    int val;
     cin >> val;              // read a floating-point number
     return Token{ch, val};  // let '8' represent "a number"
   }
@@ -104,17 +109,17 @@ Token Token_stream::get ()
 
 Token_stream ts;
 
-double expression ();
+int expression ();
 
 /// deal with numbers and parentheses
-double primary ()
+int primary ()
 {
   Token t = ts.get();
   switch (t.kind)
   {
   case '(':  // handle '(' expression ')'
   {
-    double d = expression();
+    int d = expression();
     t = ts.get();
     if (t.kind != ')')
       error("')', expected(");
@@ -130,9 +135,9 @@ double primary ()
 }
 
 /// deal with *, /, and %
-double term ()
+int term ()
 {
-  double left = primary();
+  int left = primary();
   Token t = ts.get();  // get the next token from token stream
 
   while (true)
@@ -145,14 +150,13 @@ double term ()
       break;
     case '/':
     {
-      double d = primary();
+      int d = primary();
       if (d == 0)
         error("divide by zero");
       left /= d;
       t = ts.get();
       break;
     }
-
     default:
       ts.putback(t);  // put t back into the token stream
       return left;
@@ -161,9 +165,9 @@ double term ()
 }
 
 /// deal with + and -
-double expression ()
+int expression ()
 {
-  double left = term();  // read and evaluate a Term
+  int left = term();  // read and evaluate a Term
   Token t = ts.get();    // get the next token from token stream
 
   while (true)
@@ -179,7 +183,22 @@ double expression ()
       left -= term();  // evaluate Term and subtract
       t = ts.get();
       break;
-
+    
+    case '|':
+      left |= term();
+      t = ts.get();
+      break;
+      
+    case '&':
+      left &= term();
+      t = ts.get();
+      break;
+      
+    case '^':
+      left ^= term();
+      t = ts.get();
+      break;
+      
     default:
       ts.putback(t);  // put t back into the token stream
       return left;    // finally: no more + or -: return the answer
@@ -187,6 +206,7 @@ double expression ()
   }
 }
 
+/// deal with bit operations
 int main ()
 {  
 try
