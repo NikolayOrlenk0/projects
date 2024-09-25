@@ -82,6 +82,7 @@ Token Token_stream::get ()
   case '^':
   case '|':
   case '!':
+  case '~':
 
     return Token{ch};  // let each character represent itself
 
@@ -125,7 +126,6 @@ int primary ()
       error("')', expected(");
     return d;
   }
-
   // case '8':  // we use '8' to represent a number
   //   return t.value;
 
@@ -213,7 +213,7 @@ try
   {
     while (cin)
     {
-      double val = expression();
+      int val = expression();
       Token t = ts.get();
       // cout << t.kind << '\n';
       
