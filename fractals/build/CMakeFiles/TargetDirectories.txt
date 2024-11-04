@@ -1,0 +1,7 @@
+/home/kolya/projects/fractals/build/CMakeFiles/fractals.dir
+/home/kolya/projects/fractals/build/CMakeFiles/edit_cache.dir
+/home/kolya/projects/fractals/build/CMakeFiles/rebuild_cache.dir
+/home/kolya/projects/fractals/build/CMakeFiles/list_install_components.dir
+/home/kolya/projects/fractals/build/CMakeFiles/install.dir
+/home/kolya/projects/fractals/build/CMakeFiles/install/local.dir
+/home/kolya/projects/fractals/build/CMakeFiles/install/strip.dir

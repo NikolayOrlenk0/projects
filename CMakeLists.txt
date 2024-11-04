@@ -10,4 +10,5 @@ ${LIB_DIR}
 
 add_subdirectory(calculator08)
 add_subdirectory(vec)
+add_subdirectory(justsmth)
 project(PisyatDva)

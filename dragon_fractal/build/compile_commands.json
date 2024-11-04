@@ -1,0 +1,44 @@
+[
+{
+  "directory": "/home/kolya/projects/dragon_fractal/build",
+  "command": "/usr/bin/g++ -isystem /usr/lib/fltk -isystem /home/kolya/projects/dragon_fractal/dragon_fractal/lib -g -o CMakeFiles/dragon_fractal.dir/main.cpp.o -c /home/kolya/projects/dragon_fractal/dragon_fractal/main.cpp",
+  "file": "/home/kolya/projects/dragon_fractal/dragon_fractal/main.cpp",
+  "output": "CMakeFiles/dragon_fractal.dir/main.cpp.o"
+},
+{
+  "directory": "/home/kolya/projects/dragon_fractal/build",
+  "command": "/usr/bin/g++ -isystem /usr/lib/fltk -isystem /home/kolya/projects/dragon_fractal/dragon_fractal/lib -g -o CMakeFiles/dragon_fractal.dir/lib/Graph_lib/Graph.cpp.o -c /home/kolya/projects/dragon_fractal/dragon_fractal/lib/Graph_lib/Graph.cpp",
+  "file": "/home/kolya/projects/dragon_fractal/dragon_fractal/lib/Graph_lib/Graph.cpp",
+  "output": "CMakeFiles/dragon_fractal.dir/lib/Graph_lib/Graph.cpp.o"
+},
+{
+  "directory": "/home/kolya/projects/dragon_fractal/build",
+  "command": "/usr/bin/g++ -isystem /usr/lib/fltk -isystem /home/kolya/projects/dragon_fractal/dragon_fractal/lib -g -o CMakeFiles/dragon_fractal.dir/lib/Graph_lib/GUI.cpp.o -c /home/kolya/projects/dragon_fractal/dragon_fractal/lib/Graph_lib/GUI.cpp",
+  "file": "/home/kolya/projects/dragon_fractal/dragon_fractal/lib/Graph_lib/GUI.cpp",
+  "output": "CMakeFiles/dragon_fractal.dir/lib/Graph_lib/GUI.cpp.o"
+},
+{
+  "directory": "/home/kolya/projects/dragon_fractal/build",
+  "command": "/usr/bin/g++ -isystem /usr/lib/fltk -isystem /home/kolya/projects/dragon_fractal/dragon_fractal/lib -g -o CMakeFiles/dragon_fractal.dir/lib/Graph_lib/Window.cpp.o -c /home/kolya/projects/dragon_fractal/dragon_fractal/lib/Graph_lib/Window.cpp",
+  "file": "/home/kolya/projects/dragon_fractal/dragon_fractal/lib/Graph_lib/Window.cpp",
+  "output": "CMakeFiles/dragon_fractal.dir/lib/Graph_lib/Window.cpp.o"
+},
+{
+  "directory": "/home/kolya/projects/dragon_fractal/build",
+  "command": "/usr/bin/g++ -isystem /usr/lib/fltk -isystem /home/kolya/projects/dragon_fractal/dragon_fractal/lib -g -o CMakeFiles/dragon_fractal.dir/lib/vec/vec2d.cpp.o -c /home/kolya/projects/dragon_fractal/dragon_fractal/lib/vec/vec2d.cpp",
+  "file": "/home/kolya/projects/dragon_fractal/dragon_fractal/lib/vec/vec2d.cpp",
+  "output": "CMakeFiles/dragon_fractal.dir/lib/vec/vec2d.cpp.o"
+},
+{
+  "directory": "/home/kolya/projects/dragon_fractal/build",
+  "command": "/usr/bin/g++ -isystem /usr/lib/fltk -isystem /home/kolya/projects/dragon_fractal/dragon_fractal/lib -g -o CMakeFiles/dragon_fractal.dir/lib/poly/poly.cpp.o -c /home/kolya/projects/dragon_fractal/dragon_fractal/lib/poly/poly.cpp",
+  "file": "/home/kolya/projects/dragon_fractal/dragon_fractal/lib/poly/poly.cpp",
+  "output": "CMakeFiles/dragon_fractal.dir/lib/poly/poly.cpp.o"
+},
+{
+  "directory": "/home/kolya/projects/dragon_fractal/build",
+  "command": "/usr/bin/g++ -isystem /usr/lib/fltk -isystem /home/kolya/projects/dragon_fractal/dragon_fractal/lib -g -o CMakeFiles/dragon_fractal.dir/lib/Graph_lib/ext/graph.cpp.o -c /home/kolya/projects/dragon_fractal/dragon_fractal/lib/Graph_lib/ext/graph.cpp",
+  "file": "/home/kolya/projects/dragon_fractal/dragon_fractal/lib/Graph_lib/ext/graph.cpp",
+  "output": "CMakeFiles/dragon_fractal.dir/lib/Graph_lib/ext/graph.cpp.o"
+}
+]

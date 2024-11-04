@@ -1,0 +1,7 @@
+/home/kolya/projects/dragon_fractal/dragon_fractal/build/CMakeFiles/dragon_fractal.dir
+/home/kolya/projects/dragon_fractal/dragon_fractal/build/CMakeFiles/edit_cache.dir
+/home/kolya/projects/dragon_fractal/dragon_fractal/build/CMakeFiles/rebuild_cache.dir
+/home/kolya/projects/dragon_fractal/dragon_fractal/build/CMakeFiles/list_install_components.dir
+/home/kolya/projects/dragon_fractal/dragon_fractal/build/CMakeFiles/install.dir
+/home/kolya/projects/dragon_fractal/dragon_fractal/build/CMakeFiles/install/local.dir
+/home/kolya/projects/dragon_fractal/dragon_fractal/build/CMakeFiles/install/strip.dir

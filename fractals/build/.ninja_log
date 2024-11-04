@@ -1,0 +1,9 @@
+# ninja log v6
+9	257	1730356384711377012	CMakeFiles/fractals.dir/lib/vec/vec2d.cpp.o	16ce719d926b5ec8
+8	1994	1730356384710377033	CMakeFiles/fractals.dir/lib/Graph_lib/Window.cpp.o	dd49fc0c64c7dfed
+13	2070	1730356384715376926	CMakeFiles/fractals.dir/lib/Graph_lib/ext/graph.cpp.o	2e71d36f437f952b
+9	2121	1730356384711377012	CMakeFiles/fractals.dir/lib/poly/poly.cpp.o	b802d6a11e7ee9fc
+6	2988	1730356384708377076	CMakeFiles/fractals.dir/lib/Graph_lib/Graph.cpp.o	fa3afae6b1e30386
+7	2224	1730356384709377055	CMakeFiles/fractals.dir/lib/Graph_lib/GUI.cpp.o	d72ac5c95ecd47b
+2	2289	1730356384704377162	CMakeFiles/fractals.dir/main.cpp.o	5193a4590ecd8b4e
+2988	3913	1730356387690318353	fractals	f4842bafdd7c654c

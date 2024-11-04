@@ -1,0 +1,9 @@
+# ninja log v6
+4	248	1730125484400288138	CMakeFiles/dragon_fractal.dir/lib/vec/vec2d.cpp.o	b666af7aac8266f1
+1	1213	1730125484397287997	CMakeFiles/dragon_fractal.dir/main.cpp.o	6389869ba655e91a
+4	932	1730125484399288091	CMakeFiles/dragon_fractal.dir/lib/Graph_lib/Window.cpp.o	a45b025f2136178e
+10	991	1730125484406288420	CMakeFiles/dragon_fractal.dir/lib/poly/poly.cpp.o	fe4faadea0d86eb0
+11	991	1730125484407288467	CMakeFiles/dragon_fractal.dir/lib/Graph_lib/ext/graph.cpp.o	de46837ae44655f9
+3	1087	1730125484399288091	CMakeFiles/dragon_fractal.dir/lib/Graph_lib/GUI.cpp.o	854bedee89b06a66
+2	1844	1730125484398288044	CMakeFiles/dragon_fractal.dir/lib/Graph_lib/Graph.cpp.o	6a8be704dbd2bd04
+1844	2326	1730125486240375019	dragon_fractal	f9bfc36f120b0f6d
